@@ -3,6 +3,6 @@ def oxford_comma(array)
     array.join
   elsif array.length == 2 
     array = array.join("")
-    array.insert(-7)
+    array.insert(-7, "")
 
 end
